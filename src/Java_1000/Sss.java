@@ -1,3 +1,5 @@
+package Java_1000;
+
 import java.util.*;
 
 class testClass {

@@ -1,3 +1,5 @@
+package Java_1000;
+
 public class OuterTest {
 	public static void main(String a[]){
 		Airplane airplane=new Airplane();

@@ -1,3 +1,5 @@
+package Java_1000;
+
 public class MultiTypeThread extends Thread implements Runnable {
 
 	public void run(){

@@ -1,3 +1,5 @@
+package OopProject;
+
 public class Main_interface {
      public static void main(String args[]){
      //new Anima();Creating instance of interface is Not Allowed

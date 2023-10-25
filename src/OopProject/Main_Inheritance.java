@@ -1,3 +1,5 @@
+package OopProject;
+
 //Within one file we can create multiple classes as well but with restriction that only one class can be public
 public class Main_Inheritance
 {

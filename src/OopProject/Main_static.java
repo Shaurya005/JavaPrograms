@@ -1,3 +1,5 @@
+package OopProject;
+
 public class Main_static {
 	//In Java we can have variable and method static in nature but apart from this we have static blocks and nested static classes
 	//Main_static.main(); To invoke main method as Static method

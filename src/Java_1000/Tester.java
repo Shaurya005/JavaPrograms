@@ -1,3 +1,5 @@
+package Java_1000;
+
 public class Tester {
 	static void call(Long x,Long y){
 		System.out.println("Long x, Long y");

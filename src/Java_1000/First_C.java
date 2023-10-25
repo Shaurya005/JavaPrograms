@@ -1,3 +1,5 @@
+package Java_1000;
+
 public class First_C {
 	public void myMethod()
 	{

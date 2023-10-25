@@ -1,3 +1,5 @@
+package OopProject;
+
 public class Rectangle
 {
 	//According to standard coding convention in java we must define instance variable always as private but methods can be public
