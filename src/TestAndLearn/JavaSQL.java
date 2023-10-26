@@ -2,6 +2,16 @@ package TestAndLearn;
 
 public class JavaSQL {
 
+    public static final String TABLE_NAME = "{tableName}";
+    public static final String LIMIT = "{limit}";
+    public static final String OFFSET = "{offset}";
+    public static final String BEFORE_CONDITION = "{beforeCondition}";
+    public static final String DELETED_TIME_CONDITION = "{deletedTimeCondition}";
+    public static final String IS_NOT_NULL = "IS NOT NULL";
+    public static final String IS_NULL = "IS NULL";
+    public static final String LESS_EQUALS = "<=";
+    public static final String LESS = "<";
+
     private static final String SELECT_TOKEN = "SELECT token, COUNT(*) AS count FROM ( " +
             "SELECT alias.modified_time AS token " +
             "FROM {tableName} AS alias ";
@@ -21,14 +31,14 @@ public class JavaSQL {
 
         String sql2 = buildBucketSql(false);
 
-        String finalSql = sql
-                .replace(TABLE_NAME, filter.getTableName())
-                .replace(LIMIT, String.valueOf(filter.getLimit()))
-                .replace(OFFSET, String.valueOf(filter.getOffset()))
-                .replace(DELETED_TIME_CONDITION, filter.isDeletedOnly() ? IS_NOT_NULL : IS_NULL)
-                .replace(BEFORE_CONDITION, filter.isBeforeAndMostRecentEqual() ? LESS_EQUALS : LESS);
+        // String finalSql = sql
+        //         .replace(TABLE_NAME, filter.getTableName())
+        //         .replace(LIMIT, String.valueOf(filter.getLimit()))
+        //         .replace(OFFSET, String.valueOf(filter.getOffset()))
+        //         .replace(DELETED_TIME_CONDITION, filter.isDeletedOnly() ? IS_NOT_NULL : IS_NULL)
+        //         .replace(BEFORE_CONDITION, filter.isBeforeAndMostRecentEqual() ? LESS_EQUALS : LESS);
 
-        System.out.println(sql1);
+        System.out.println(sql);
         System.out.println(sql2);
     }
 

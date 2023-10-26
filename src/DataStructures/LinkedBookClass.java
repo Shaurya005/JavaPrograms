@@ -1,6 +1,6 @@
 package DataStructures;
 
-import java.util.*;
+import java.util.LinkedList;
 class Book {
 	int id;
 	String name,author,publisher;

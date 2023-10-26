@@ -12,7 +12,8 @@ Method 1: Using subList() and clear() method
 Syntax: List.subList(int fromIndex, int toIndex).clear()
 Java code to remove a subList using subList(a, b).clear() method
  */
-import java.util.*;
+import java.util.AbstractList;
+import java.util.LinkedList;
 public class DeleteSublist {
 	public static void main(String args[])
 	{

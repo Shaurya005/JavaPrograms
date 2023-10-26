@@ -1,3 +1,5 @@
+package DataStructures;
+
 class DLL{
 	int data;
 	DLL next, prev;
