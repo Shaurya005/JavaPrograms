@@ -1,4 +1,4 @@
-package internshala;
+package Internshala;
 
 public class Rectangle {
 	float length;  //Instance Variable

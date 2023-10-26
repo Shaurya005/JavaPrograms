@@ -1,4 +1,4 @@
-package internshala;
+package Internshala;
 
 import java.util.Scanner;
 //Here package is java.util(predefined packages) and it contains class Scanner

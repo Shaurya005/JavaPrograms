@@ -1,4 +1,4 @@
-package internshala;
+package Internshala;
 //Main.java file is present in this package com.internshala.javaapp
 //Main file is actually a java file
 //Main.java[Java Code] after being passed to compiler get converted into Main.class[Byte Code]

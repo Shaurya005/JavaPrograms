@@ -1,4 +1,4 @@
-package internshala;
+package Internshala;
 
 public class Main5 {
 

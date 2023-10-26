@@ -1,4 +1,4 @@
-package internshala;
+package Internshala;
 
 public class Dog {
 	//Public is a modifier

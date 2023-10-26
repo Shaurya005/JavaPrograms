@@ -1,4 +1,4 @@
-package internshala;
+package Internshala;
 
 import java.util.Scanner;
 

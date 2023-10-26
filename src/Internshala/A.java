@@ -1,4 +1,4 @@
-package internshala;
+package Internshala;
 
 class A {
  private int t; 

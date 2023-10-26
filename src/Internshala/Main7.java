@@ -1,4 +1,4 @@
-package internshala;
+package Internshala;
 public class Main7 {
 	//Method is always defined within class
 	public static void main(String args[])

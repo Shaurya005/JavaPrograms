@@ -1,4 +1,4 @@
-package internshala;
+package Internshala;
 
 abstract class A1{
 A1() { System.out.print("Z");}}
