@@ -1,0 +1,54 @@
+So, if it is public then it should be visible to anywhere so; that means, any other classfrom any other class or any method belongs to any class can access that kind of members.
+On the other hand, if it is protected then that member cannot be accessed by all classes that member can be accessed by any method that belongs to any inherited sub classes.
+On the other hand, if it is a private then that member cannot accessed by any other method other than the method in that class itself. So, these are the three; public protected and private and then default, 
+there are possibilities that without making any specifier explicitly then it is called the default access specifier.That means, if we do not use public protected private, 
+just keep it blank void then the access specifier is called the default. If it is a default then that members will be accessible to any class that belongs tothe same directory, 
+where that class belongs or it is basically belong to the same package. So it is basically, either same file or it is a same class belongs to the same directory the access will be available otherwise,
+it cannot be accessed.So, these are the 3 4 different access modifiers and we will just discuss about all these modifiers one by one with examples. So, then you can understand about it.
+So, we can say in other words that access modifier specify the scope that a member have,whether scope is within that class or scope is within that directory or scope is anywhere.
+
+
+
+Now so far the public is concerned as we see any class, they have the access to publicmember, any package also it has the access to that member any sub class and it can be from anywhere. So, if it is a public means it is a global look like.
+So, anybody can see it, can use it, can print it, can change the value whatever it is there.
+On the other hand, if it is a protected within the same class any method can access thisprotected data then protected member within the same package, the protected is accessible within the sub class the protected is accessible; 
+however, protected is not accessible, otherthan these 3 things from anywhere it cannot be.
+
+
+So, if the two class files are same package then protected member can be accessed in anyclass, it belongs to that same package. Now, let us come to the private as I told you private is the stricter access specification,
+it is accessible a member which is declared as a private is accessible to that class onlywhere that member is declared as a private outside this class that member cannot be accessibleeither it is packaged or it is sub class or anywhere.
+Now the default as I told you, default member is accessible to the same class, where itis declared as a default and also in the same directory it is called the package, where that class is that member is declared as a default access specification.
+
+
+Now again, I just want to mention one more important thing that you may face sometimesthat if we maintain these two classes here, these classes and these classes, in the samefile then the Java compiler does not allow to specify all the classes, 
+which are belongto the same class by any other access specifier; that means, if class A and class B, if wetype using same program and save as a say class B dot java then that public specifier,you cannot mention because, 
+in the same file there is no access restriction.Actually because, you are a programmer, you are writing this class, you are using thisclass then why you should mention any access specification, there is no meaning actually.
+So, in that case the Java developers suggest you to make it default.So, no access specific provided that if you declare all classes belong to the same file.
+So again, my advice is that whenever you write two or more classes and save all the classesin the same dot Java file, you should have give the access to an default do not put anyaccess specification other than default that is the concept you will be able to you willnot be able to run this program.In fact, compile this program in fact successfully.
+So, these will report an error usually people follow this one. So, public is not required until and it is a not a good practice actually, it is a good practice for any programmer is that if you create any class all these class, you should maintain in a separate file.So, all files can be maintained individually isolated way and then all these files can be accessed in your main class that is the practice good practice of course.
+So, in that case all those access modification matters actually, if you store all the filesin one file, all access modification does not matters too much because, it is publicin any way.
+
+
+
+
+If you declare a class as apublic for example, here we declare a class as a public, if we declare a class as a publicand if you have the access the other members under this class without any access specification;
+that means, if they are the default access specifier did not mean that if they are thedefault they are also public.So, here for example, it is declared as a public and this method is default access specifier,this means that this message is also public.That means this method can be accessible can be accessed by any other class in anywhere.
+So, this is the idea about the public access modifier. Now class is private, if class is declared as a private then all the member that is there with the default access specifier also become private.So, in this case as this is a private and there is a default.So, by default all these members are private.
+So, here we see that this message is declared as a protected in class A and again the messageis overridden here in the subclass this one.So, if it is a protected and if it is a subclass of that; so, overridden is possible, 
+but if it is not supposed no access specification is there.So, it is a say default and then and then if you declare as a protected here is a protectedthen the problem.
+The problem is that if it is a default one method, you want to protect it, override itas a protected one then it will not allow you to do that. So, this is stricter one since, that you cannot do that.
+So, all these things if the access vision not allowed, it will not successfully compile your program.
+ 
+ 
+In one file we store two classes, but for good practice that a Java programmer should maintaina separate file for the different classes.
+
+So, if you use two or more classes in thesame file you should have the access specifier as a default no other access specifier is allowed there, but in the separate file then you can specify any access specifier
+ 
+ 
+So, the error is that public int data 2 things cannot be declared as publiconly we can declare as the access specifier default because in the same file we cannot declare a method any member as public. So, public int, in this case, is giving error as it gives the public as an error a private should give an error also.
+So; that means, we cannot declare one member in the main method or is the main class withoutaccess specifier any other specifier. So, let us see again private. 
+So, private data now what is the lesson that we have learned from them in the demonstration is that in the main class if we declare any member this should be declared with default access specifier. No others access specifier is allowed to declare any member in the main method 
+  
+  
+The basic concept is that a method can override it by one weakest one if it is by if an access specifier is weakest one then the strongest one then it can be specified by the weakestone, but the reverse is not possible. So, this is the concept it is basically upward compatibility it is there. Now, so, far the different access is concernedprivate is the strongest and after the private protected and after the protected default and the weakest is the public there. So, if we declare a public, later on, we can method override as a default if we declare is a public overridden as a private can be possible. 
+But if it is a protected and then accessing that is a default it is not possible because thedefault is weaker then the protected and vice versa similarly public is weakest. So, public default is there then may overriding as a default is possible, but the reverse is not possible
