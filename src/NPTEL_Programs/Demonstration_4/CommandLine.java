@@ -1,4 +1,4 @@
-package NPTEL_Programs.Demonstration_4.src;
+package NPTEL_Programs.Demonstration_4;
 
 //Command line input in Java
 class CommandLine{

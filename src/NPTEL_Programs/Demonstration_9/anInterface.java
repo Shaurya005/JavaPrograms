@@ -1,4 +1,4 @@
-package NPTEL_Programs.Demonstration_9.src;
+package NPTEL_Programs.Demonstration_9;
 
 // Interfaces, in many way, similar to class however no object can be instantiated from an interface.
 interface anInterface{

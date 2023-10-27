@@ -1,4 +1,4 @@
-package NPTEL_Programs.Demonstration_3.src;//The following program shows the use of this() to avoid the name-space collisions.
+package NPTEL_Programs.Demonstration_3;//The following program shows the use of this() to avoid the name-space collisions.
 
 class Student{
 int rollno;

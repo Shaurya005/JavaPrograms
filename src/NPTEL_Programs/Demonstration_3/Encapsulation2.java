@@ -1,4 +1,4 @@
-package NPTEL_Programs.Demonstration_3.src;
+package NPTEL_Programs.Demonstration_3;
 
 //Encapsulation in Java. In java writing program means writing sets of classes and all classes can be used to create object
 class Circle{

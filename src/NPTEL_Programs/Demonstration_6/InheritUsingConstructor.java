@@ -1,4 +1,4 @@
-package NPTEL_Programs.Demonstration_6.src;
+package NPTEL_Programs.Demonstration_6;
 
 //Inheritance example: Initializing of subclass object through constructor in subclass and super class.
 class Box{

@@ -1,4 +1,4 @@
-package NPTEL_Programs.Demonstration_9.src;
+package NPTEL_Programs.Demonstration_9;
 
 /* Multiple Inheritance in Java by interface
 Case 1: Example of class which implements two interfaces

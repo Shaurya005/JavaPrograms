@@ -1,4 +1,4 @@
-package NPTEL_Programs.Demonstration_3.src;
+package NPTEL_Programs.Demonstration_3;
 
 //Constructor and Constructor overloading
 class Circle2{

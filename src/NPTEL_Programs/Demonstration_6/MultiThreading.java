@@ -1,4 +1,4 @@
-package NPTEL_Programs.Demonstration_6.src;
+package NPTEL_Programs.Demonstration_6;
 
 //Creating three threads with Thread class already defined in java.lang and then running them concurrently
 class ThreadA extends Thread{

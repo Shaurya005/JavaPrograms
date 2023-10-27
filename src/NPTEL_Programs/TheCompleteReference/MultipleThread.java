@@ -1,3 +1,5 @@
+package NPTEL_Programs.TheCompleteReference;
+
 // Create multiple threads.
 class NewThread3 implements Runnable {
 	String name; // name of thread

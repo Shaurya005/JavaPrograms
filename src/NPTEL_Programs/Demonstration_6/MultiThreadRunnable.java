@@ -1,4 +1,4 @@
-package NPTEL_Programs.Demonstration_6.src;
+package NPTEL_Programs.Demonstration_6;
 
 //Creating theads wih Runnable interface and then running them concurrently
 //Create object implementing Runnable interface

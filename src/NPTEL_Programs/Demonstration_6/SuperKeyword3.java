@@ -1,4 +1,4 @@
-package NPTEL_Programs.Demonstration_6.src;
+package NPTEL_Programs.Demonstration_6;
 
 //Dynamic Binding Concept: Code sharing through super concept
 //Runtime polymorphism concept: During run time it'll resolve which method will be called here

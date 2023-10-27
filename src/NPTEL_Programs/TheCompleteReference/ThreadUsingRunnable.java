@@ -1,3 +1,5 @@
+package NPTEL_Programs.TheCompleteReference;
+
 // Create a second thread.
 class NewThread implements Runnable {
 	Thread t;

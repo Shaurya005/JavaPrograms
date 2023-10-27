@@ -1,4 +1,4 @@
-package NPTEL_Programs.Demonstration_6.src;
+package NPTEL_Programs.Demonstration_6;
 
 //Use of super keyword: Referring subclass object by super claas variable
 class Box_{

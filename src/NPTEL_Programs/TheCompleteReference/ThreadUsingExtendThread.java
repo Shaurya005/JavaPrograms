@@ -1,3 +1,5 @@
+package NPTEL_Programs.TheCompleteReference;
+
 // Create a second thread by extending Thread
 class NewThread2 extends Thread {
 	NewThread2() {

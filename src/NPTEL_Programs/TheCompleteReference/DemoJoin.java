@@ -1,3 +1,5 @@
+package NPTEL_Programs.TheCompleteReference;
+
 // Using join() to wait for threads to finish.
 class NewThread4 implements Runnable {
 	String name; // name of thread

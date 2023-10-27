@@ -1,4 +1,4 @@
-package NPTEL_Programs.Demonstration_6.src;//An abstract class example: Abstract class and Abstract Methods , atype of access specifier
+package NPTEL_Programs.Demonstration_6;//An abstract class example: Abstract class and Abstract Methods , atype of access specifier
 //Abstract class may or may not have an abstract method
 //If class is declared abstract then no object can be created for that but this class can be used to inherit some other class means abstract class can be used as super class but no object can be created.
 //But abstract class may have it's own constructor i.e. it can be used to initialize member element if it is there. Here this constructor will be utilised to initialize the object of subclass of this class

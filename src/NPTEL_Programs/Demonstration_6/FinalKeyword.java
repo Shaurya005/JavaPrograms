@@ -1,4 +1,4 @@
-package NPTEL_Programs.Demonstration_6.src;
+package NPTEL_Programs.Demonstration_6;
 
 //Final Keyword is a strict keyword if we declare a class final means this class can't be inherited from any class i.e no subclass can be created.
 //A class, method and variable can be made as final. 

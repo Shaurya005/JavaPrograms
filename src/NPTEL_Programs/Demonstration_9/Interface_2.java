@@ -1,4 +1,4 @@
-package NPTEL_Programs.Demonstration_9.src;/*A class can implement an interface and that class will be used as normal class if all the abstract functions of interface are implemented.
+package NPTEL_Programs.Demonstration_9;/*A class can implement an interface and that class will be used as normal class if all the abstract functions of interface are implemented.
   while an Interface cannot interface another interface. And also an interface can not implement a class either abstract or non abstract.
   No method can be declared final(modifier) or static in case of interface  */
 

@@ -1,4 +1,4 @@
-package NPTEL_Programs.Demonstration_9.src;
+package NPTEL_Programs.Demonstration_9;
 
 // An interface acts like a class. That is we can do everything as we can do with class except the object instantiation.
 interface I2{

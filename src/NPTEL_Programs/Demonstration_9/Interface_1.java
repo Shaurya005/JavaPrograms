@@ -1,4 +1,4 @@
-package NPTEL_Programs.Demonstration_9.src;
+package NPTEL_Programs.Demonstration_9;
 
 class Interface_1 implements anInterface//As Interface was defined public so can be accessed anywhere
 {

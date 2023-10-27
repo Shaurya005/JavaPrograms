@@ -1,3 +1,5 @@
+package NPTEL_Programs.TheCompleteReference;
+
 // Demonstrate thread priorities.
 class clicker implements Runnable {
 	long click = 0;

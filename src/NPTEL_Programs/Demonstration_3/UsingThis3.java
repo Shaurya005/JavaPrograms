@@ -1,4 +1,4 @@
-package NPTEL_Programs.Demonstration_3.src;
+package NPTEL_Programs.Demonstration_3;
 
 //Program to demonstrate use of this: to invoke current class method
 //Special use of this keyword: No object creation to invoke method
